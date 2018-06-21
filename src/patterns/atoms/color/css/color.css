@@ -1,0 +1,43 @@
+.a-color {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.a-color__preview {
+	display: block;
+	height: 150px;
+	width: 150px;
+}
+
+.a-color__code {
+	background-color: #eee;
+	display: inline-block;
+	color: #999;
+	padding: 3px;
+	border-radius: 3px;
+	margin: 15px 0 5px 0;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+.a-color__name {
+	font-weight: 300;
+	margin: 5px 0;
+}
+
+.a-color__primary {
+	display: inline-block;
+	padding: 5px;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 3px;
+}

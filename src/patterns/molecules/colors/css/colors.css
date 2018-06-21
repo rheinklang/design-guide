@@ -1,0 +1,12 @@
+.m-colors {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.m-colors .a-color {
+	margin: 20px;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+}

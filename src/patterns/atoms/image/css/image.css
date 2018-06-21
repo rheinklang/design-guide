@@ -1,0 +1,15 @@
+.a-image {
+	display: inline-block;
+	background-color: #eee;
+	color: #888;
+	text-align: center;
+	border: 5px solid #ccc;
+}
+
+.a-image--rounded {
+	border-radius: 20px;
+}
+
+.a-image__rendition {
+	margin: 0;
+}
